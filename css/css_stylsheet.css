@@ -1,0 +1,92 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+div {
+    border-color: black;
+    background-color: darkgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#div-marg {
+    margin-left: 40px;
+    margin: 10px;
+}
+
+p {
+    width: 55px;
+    height: 25px;
+    border: 1px solid black;
+    position: relative;
+    float: right;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+}
+
+#para1 {
+    background-color: rosybrown;
+}
+
+#para2 {
+    background-color: rgb(217, 14, 14);
+    color: white;
+}
+
+#para3 {
+    background-color: rgb(238, 241, 92);
+    color:green;
+}
+div div { 
+    margin: 15px;
+
+
+
+}
+.div-text {
+    position: relative;
+    top: 22px;
+    color:black;
+    background-color: transparent;
+    margin: 7px;   
+}
+.row {
+    width: 100%;
+}
+
+.div-first-med-screen, .div-large-screen, .div-sec-med-screen, .div-small-screen {
+    
+    border-style: solid; color: black;
+    padding: 0%;
+    padding-bottom: 3%;
+    min-height: 170px; 
+}
+
+/********** Small devices only **********/
+@media (max-width: 768px) {
+    .div-small-screen {
+        width: 95%;
+        float: left;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 769px) and (max-width: 991px) {
+    .div-first-med-screen {
+        width: 45%;
+        float: left;
+    }
+    .div-sec-med-screen {
+        width: 95%;
+        float: left;
+    }
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .div-large-screen {
+        width: 30%;
+        float: left;
+    }
+}
