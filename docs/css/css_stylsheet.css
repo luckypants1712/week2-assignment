@@ -61,7 +61,7 @@ div div {
     border-style: solid; color: black;
     padding: 0%;
     padding-bottom: 3%;
-    min-height: 170px; 
+    min-height: 160px; 
 }
 
 /********** Small devices only **********/
@@ -79,7 +79,7 @@ div div {
         float: left;
     }
     .div-sec-med-screen {
-        width: 95%;
+        width: 93%;
         float: left;
     }
 }
